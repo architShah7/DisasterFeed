@@ -1,0 +1,65 @@
+@import '~antd/dist/antd.dark.css';
+
+.page-link {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: gray;
+}
+
+.page-link-active {
+  color: white;
+}
+
+.jumbotron {
+  background-color: #343a40;
+  color: white;
+}
+
+.priority-Low,
+.priority-Medium,
+.priority-High,
+.priority-Critical,
+.problem-Power,
+.problem-Medical,
+.problem-Flood,
+.problem-Fire {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 3px 10px;
+  border-radius: 990px;
+  margin: 2px;
+}
+.priority-Low {
+  background-color: rgba(129, 255, 104, 0.5);
+}
+.priority-Medium {
+  background-color: rgba(252, 255, 104, 0.5);
+}
+.priority-High {
+  background-color: rgba(255, 190, 104, 0.5);
+}
+.priority-Critical {
+  background-color: rgba(255, 104, 104, 0.5);
+}
+.problem-Flood {
+  background-color: rgba(0, 162, 255, 0.5);
+}
+.problem-Power {
+  background-color: rgba(251, 255, 0, 0.5);
+}
+.problem-Medical {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.problem-Fire {
+  background-color: rgba(255, 145, 0, 0.5);
+}
+
+.analyticspage {
+  min-height: calc(100vh - 56px);
+}
+
+.filters {
+  position: sticky;
+  top: 20;
+}
